@@ -1,12 +1,19 @@
 # Limit request count service
 
-1. start the service with docker-compose
+## Prerequisite
+docker install on Mac
+```bash
+https://hub.docker.com/editions/community/docker-ce-desktop-mac/
+```
+
+## Start service
+1. use docker-compose
 
 ```bash
 $ docker-compose up
 ```
 
-2. send request and you can get the response that nth request number
+2. in another terminal to send request and you can get the response that nth request number
 ```bash
 $ curl http://localhost:8080/page
 ```
